@@ -1,10 +1,14 @@
 class Rango:
 
     def __init__(self, name, image, min_Donation):
-        self.name = name
-        self.image = image
-        self.min_Donation = min_Donation
+        self._name = name
+        self._image = image
+        self._min_Donation = min_Donation
 
-    def add_Rango(self):
-        #Creamos el rnago
-        print("Creamos el rango de " + self.name)
+@property
+def get_name(self):
+    return self._name
+
+@get_direccion.setter
+def set_direccion(self, direccion):
+    self._direccion = direccion

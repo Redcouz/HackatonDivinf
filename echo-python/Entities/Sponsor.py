@@ -1,14 +1,12 @@
 class Sponsor:
 
     def __init__(self,  name):
-        self.name = name
+        self._name = name
 
-#-------CREAR-------
-    def add_Sponsor(self):
-        #Crear sponsor
-        print("El Sponsor " + self.nombre + " fue creado.")
 
-    def get_Name(self):
-        return self.nombre
-
-    
+    def get_all():
+       n = 1 
+    def get_by_id():
+        n = 1
+    def put(self):
+        n = 1
