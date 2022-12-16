@@ -1,0 +1,16 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(213,0,255);
+    background-color: linear-gradient(141deg, rgba(213,0,255,1) 0%, rgba(12,44,180,1) 77%);
+}
+
+.title{
+    display: inline;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 1500;
+}
